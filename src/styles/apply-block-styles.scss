@@ -1,0 +1,263 @@
+.apply-block-wrapper{
+   display: flex;
+   max-width: 2560px;
+   width: 100%;
+   height: 718px;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   overflow: hidden;
+   @media(max-width: 640px){
+      max-width: 640px;
+      width: 100%;
+      height: 740px;
+   }
+   @media(max-width: 320px){
+      max-width: 320px;
+      width: 100%;
+      height: 571px;
+   }
+}
+.apply-block{
+   width: 1451px; 
+   height: 574px; 
+   position: relative;
+   .rectangles-wrapper{
+      @media(max-width: 320px){
+         display: none;
+      }
+   }
+   .rectangle-1{
+      width: 85.61px; 
+      height: 33.84px; 
+      left: 1136.83px; 
+      top: 390.81px; 
+      position: absolute; 
+      transform: rotate(-65.10deg); 
+      transform-origin: 0 0; 
+      opacity: 0.50; 
+      border-radius: 12px; 
+      border: 1.50px #2060F6 solid; 
+   }
+   .rectangle-2{
+      width: 85.61px; 
+      height: 33.84px; 
+      left: 150.84px; 
+      top: 77.65px; 
+      position: absolute; 
+      transform: rotate(-65.10deg); 
+      transform-origin: 0 0; 
+      opacity: 0.50; 
+      border-radius: 12px; 
+      border: 1.50px #2060F6 solid;
+   }
+   .rectangle-3{
+      width: 45.28px; 
+      height: 17.90px; 
+      left: 363.84px; 
+      top: 46.07px; 
+      position: absolute; 
+      transform: rotate(-65.10deg); 
+      transform-origin: 0 0; 
+      opacity: 0.50; 
+      border-radius: 6px; 
+      border: 1.50px #2060F6 solid;
+    }
+    .rectangle-4{
+      width: 45.28px; 
+      height: 17.90px; 
+      left: 929.84px; 
+      top: 483.07px; 
+      position: absolute; 
+      transform: rotate(-65.10deg); 
+      transform-origin: 0 0; 
+      opacity: 0.50; 
+      border-radius: 6px; 
+      border: 1.50px #2060F6 solid;
+   }
+   .rectangle-5{
+      width: 86.41px; 
+      height: 34.16px; 
+      left: 1383.44px; 
+      top: 282.88px; 
+      position: absolute; 
+      transform: rotate(-65.10deg); 
+      transform-origin: 0 0; 
+      opacity: 0.50; 
+      border-radius: 12px; 
+      border: 1.50px #2060F6 solid;
+   }
+    .rectangle-6{
+      width: 153.61px; 
+      height: 60.72px; 
+      left: 1254.53px; 
+      top: 480.49px; 
+      position: absolute; 
+      transform: rotate(-65.10deg); 
+      transform-origin: 0 0; 
+      opacity: 0.50; 
+      border-radius: 12px; 
+      border: 2.50px #2060F6 solid;
+   }
+   .rectangle-7{
+      width: 67.36px; 
+      height: 26.63px; 
+      left: 0px; 
+      top: 359.21px; 
+      position: absolute; 
+      transform: rotate(-65.10deg); 
+      transform-origin: 0 0; 
+      opacity: 0.50; 
+      border-radius: 12px; 
+      border: 2.50px #2060F6 solid;
+   }
+   .rectangle-8{
+      width: 143.04px; 
+      height: 56.54px; 
+      left: 1190.75px; 
+      top: 188.70px; 
+      position: absolute; 
+      transform: rotate(-65.10deg); 
+      transform-origin: 0 0; 
+      opacity: 0.50; 
+      border-radius: 12px; 
+      border: 2.50px #2060F6 solid;
+   }
+   .rectangle-9{
+      width: 53.69px; 
+      height: 21.22px; 
+      left: 1364.86px; 
+      top: 86.18px; 
+      position: absolute; 
+      transform: rotate(-65.10deg); 
+      transform-origin: 0 0; 
+      opacity: 0.50; 
+      border-radius: 8px; 
+      border: 1.50px #2060F6 solid;
+   }
+   .rectangle-10{
+      width: 143.04px; 
+      height: 56.54px; 
+      left: 186.84px; 
+      top: 340.74px; 
+      position: absolute; 
+      transform: rotate(-65.10deg); 
+      transform-origin: 0 0; 
+      opacity: 0.50; 
+      border-radius: 12px; 
+      border: 2.50px #2060F6 solid;
+   }
+   .rectangle-11{
+      width: 93.54px; 
+      height: 36.98px; 
+      left: 49.27px; 
+      top: 531.29px; 
+      position: absolute; 
+      transform: rotate(-65.10deg); 
+      transform-origin: 0 0; 
+      opacity: 0.50; 
+      border-radius: 12px; 
+      border: 2.50px #2060F6 solid;
+   }
+    .rectangle-12{
+      width: 45.28px; 
+      height: 17.90px; 
+      left: 398.84px; 
+      top: 434.07px; 
+      position: absolute; 
+      transform: rotate(-65.10deg); 
+      transform-origin: 0 0; 
+      opacity: 0.50; 
+      border-radius: 6px; 
+      border: 1.50px #2060F6 solid;
+   }
+   .apply-text-wrapper{
+      display: flex;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      .apply-text-block{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         max-width: 754px;
+         width: 100%;
+         height: 294px;
+         @media(max-width: 640px){
+            height: 340px;
+         }
+         @media(max-width: 320px){
+            max-width: 320px;
+            width: 100%;
+            height: 427px;
+         }
+         .apply-title{
+            color: #253757;
+            font-size: 52px;
+            font-family: Poppins;
+            font-weight: 600;
+            line-height: 78px;
+            word-wrap: break-word;
+            text-align: center;
+            width: 80%;
+            @media(max-width: 640px){
+               line-height: 62px;
+            }
+            @media(max-width: 320px){
+               line-height: 62px;
+               font-size: 52px;
+            }
+         }
+         .apply-text{
+            width: 90%;
+            margin-top: 24px;
+            color: #6C788B;
+            font-size: 24px;
+            font-family: Open Sans;
+            font-weight: 600;
+            line-height: 36px;
+            word-wrap: break-word;
+            text-align: center;
+            @media(max-width: 320px){
+               font-size: 22px;
+               line-height: 33px;
+            }
+         }
+         .apply-button{
+            display: flex;
+            max-width: 264px;
+            width: 100%;
+            height: 56px;
+            border-radius: 8px;
+            background-color: #2060F6;
+            outline: none;
+            border: none;
+            justify-content: center;
+            align-items: center;
+            margin-top: 62px;
+            color: white;
+            font-size: 15px;
+            font-family: Poppins;
+            font-weight: 600;
+            word-wrap: break-word;
+         }
+      }
+   }
+}
+
+
+
+    
+    
+
+    
+    
+    
+   
+   
+    
+    
+    
+    
+   
